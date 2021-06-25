@@ -1,0 +1,62 @@
+POST http://localhost:5000/api/authen/user/signin
+Content-Type: application/json
+
+{
+    "email": "user@example.com",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/authen/user/signup
+Content-Type: application/json
+
+{
+    "email": "user@example.com",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/authen/cook/signin
+Content-Type: application/json
+
+{
+    "email": "cook@example.com",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/authen/cook/signup
+Content-Type: application/json
+
+{
+    "email": "cook@example.com",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/authen/manager/signin
+Content-Type: application/json
+
+{
+    "email": "manager@example.com",
+    "password": "12345"
+}
+
+###
+
+POST http://localhost:5000/api/authen/manager/signup
+Content-Type: application/json
+
+{
+    "email": "manager@example.com",
+    "password": "12345"
+}
+
+###
+
+GET http://localhost:5000/api/authen/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0MzY5ZGQ5NGZiMjE1MzQ2YjViNTUiLCJpYXQiOjE2MjM0ODE1NDF9.qicJbcJMGtNSC3OM8zTFprS1-_5Bk8UrYoFav1F8MUo
